@@ -40,7 +40,7 @@ class ComfortableMexicanSofa::FormBuilder < FormattedForm::FormBuilder
   end
 
   def field_text(tag, index)
-    default_tag_field(tag, index, :text_area_tag, :data => {'cms-cm-mode' => 'text/html'})
+    default_tag_field(tag, index, :text_area_tag, :data => {'cms-cm-mode' => 'application/x-erb'})
   end
 
   def field_rich_text(tag, index)
@@ -67,7 +67,7 @@ class ComfortableMexicanSofa::FormBuilder < FormattedForm::FormBuilder
   end
 
   def page_text(tag, index)
-    default_tag_field(tag, index, :text_area_tag, :data => {'cms-cm-mode' => 'text/html'})
+    default_tag_field(tag, index, :text_area_tag, :data => {'cms-cm-mode' => 'application/x-erb'})
   end
 
   def page_rich_text(tag, index)
