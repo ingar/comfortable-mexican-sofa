@@ -4,7 +4,9 @@
 #= require codemirror
 #= require codemirror/modes/css
 #= require codemirror/modes/htmlmixed
+#= require codemirror/modes/htmlembedded
 #= require codemirror/modes/javascript
+#= require codemirror/modes/ruby
 #= require codemirror/modes/markdown
 #= require codemirror/modes/xml
 #= require codemirror/addons/edit/closetag
